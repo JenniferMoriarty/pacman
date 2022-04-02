@@ -10,7 +10,7 @@ enum DIRECTIONS  { LEFT, RIGHT, UP, DOWN }; //left is 0, right is 1, up is 2, do
 
 int main() {
 	//game set up (you'll need these lines in every game)
-    sf::RenderWindow screen(sf::VideoMode(800,800), "breakout"); //set up screen
+    sf::RenderWindow screen(sf::VideoMode(800,800), "pacman"); //set up screen
     sf::Event event; //set up event queue
     sf::Clock clock; //set up the clock (needed for game timing)
     const float FPS = 60.0f; //FPS
